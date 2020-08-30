@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Ecclesia Sanctorum"
+title = "A Hugo website"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
@@ -10,17 +10,17 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "Auctores"
-    url = "/auctores/"
+    name = "About"
+    url = "/about/"
 [[menu.main]]
-    name = "Bibla"
-    url = "/bibla/"
+    name = "GitHub"
+    url = "https://github.com/rstudio/blogdown"
 [[menu.main]]
-    name = "Doctrina"
-    url = "/doctrina/"
+    name = "Twitter"
+    url = "https://twitter.com/rstudio"
 
 [params]
-    description = "Laus in ecclesia sanctorum."
+    description = "A website built through Hugo and blogdown."
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
